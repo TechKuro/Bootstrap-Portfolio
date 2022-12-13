@@ -80,5 +80,5 @@ p {
 .card-container {
     max-width: 33%;
     margin: auto;
-    align-items: center;
+    text-align: center;
 }
