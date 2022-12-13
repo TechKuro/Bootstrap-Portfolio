@@ -3,6 +3,7 @@
 :root {
     --main-color: #7D9AD1;
     --card-bg: #D3DFE7;
+    --secondary: #5F648A;
 }
 
 
@@ -27,7 +28,7 @@ body {
 
     background-color:var(--main-color);
     transition: all .35s;
-    font-size: 2em;
+    font-size: 1.2em;
     font-weight: 200;
     letter-spacing: 1px;
     height: 130px;
@@ -40,8 +41,6 @@ body {
 .navbar-brand img {
    max-width:30%;
    min-width: 150px;
-
-
     
 }
 
@@ -95,7 +94,7 @@ body {
 }
 
 .card-img-top {
-    max-height: 500px;
+    max-height: 400px;
 }
 
 .card-container {
@@ -121,8 +120,9 @@ body {
 /*form section styles */
 
 .mail-form {
-    background-color: var(--main-color);
-    padding-top: 2vh;
+    background-color: var(--secondary);
+    padding-top: 1vh;
+    padding-bottom: 10vh;
 }
 
 .form-style {
@@ -130,7 +130,7 @@ body {
     background-color: #856945;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 20px 50px;
     margin-top: 10vh;
     font-size: 1.2em;
 }
@@ -138,3 +138,5 @@ body {
 #signUp {
     background-color: #856945;
 }
+
+
