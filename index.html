@@ -22,13 +22,13 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#my-work">My Work <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link" href="#about-me">About Me</a>
             </li>
           </ul>
         </div>
@@ -39,18 +39,18 @@
           <div>
             <h1 class="display-4">Hello, world!</h1>
             <!--added margin class to lead & p for spacing-->
-            <p class="lead my-4">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+            <p class="lead my-4">This is a first attempt and something thats meant to resemble a portfolio page. Its a work in progress, and will be updated constantly as I gain more skills and knowledge around web development</p>
             <hr class="my-4">
-            <p class="my-4">It uses utility classes for typography and spacing to space content out within the larger container.</p>
-            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            <p class="my-4">There are a few projects linked below to showcase my current work and a link to my github repo.</p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">My Repo</a>
           </div>
         </div>
         <div class="card col-lg-6" id="jumbo-card" > <!--image card to the right of the jumbotron-->
         <img class="card-img-top" src="/images/mgport.JPG" alt="Card image cap">
           <div class="card-body" style="background-color: transparent;">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <h5 class="card-title">Martin Graham</h5>
+            <p class="card-text">Web child and tinker of things</p>
+            <a href="#" class="btn btn-primary">LinkedIn</a>
           </div>
       </div>
     </div>
@@ -58,7 +58,7 @@
     <!-- My Work Section-->
 
    <section class="container container-style">
-    <h2 class="section-heading display-4"><u>My Work</u></h2>
+    <h2 class="section-heading display-4" id="my-work"><u>My Work</u></h2>
   <div class="row row-contain">
     <!--First Card-->
     <div class="card-container col-lg-6">
@@ -105,7 +105,7 @@
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <a href="#" class="btn btn-primary">Find out more</a>
         </div>
       </div>
     </div>
@@ -113,7 +113,7 @@
   </section>
   <!--mail capture form-->
   <section class="mail-form">
-    <form class="container-fluid form-style">
+    <form class="container-fluid form-style" id="contact">
       <div class="form-group">
         <label class="my-2" for="exampleInputEmail1">Email address</label>
         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -127,19 +127,24 @@
     </form>
   </section>
   <!--about me section-->
-  <section class="my-5">
+  <section class="my-5" id="about-me">
     <div class="container test">
       <div class="row">
         <div class="col-md-10 col-sm-12">
           <div class="card">
-            <div class="card-body py-5" style="background-color: #7D9AD1;">
-              <h5 class="card-title pb-2">About Me</h5>
-              <h6 class="card-subtitle pb-2 ">Skills So Far</h6>
-              <p class="card-text">I'm learning to be a web developer</p>
+            <div class="card-body py-4" style="background-color: #7D9AD1;">
+              <h5 class="card-title pb-2 text-center">About Me</h5>
+              <p class="card-text">I am a web developer learning the core skills needed to succeed in front end development. So far, I have worked with a few frontend technologies, highlighted below.</p>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>bootstrap</li>
+              </ul>
+              <p>I'm looking forward to Javascript over the coming weeks.</p>
             </div>
           </div>
         </div>
-        <div class="col-md-2 col-sm-12 image-holder"><img class="float-right" src="/images/githubLogo.png" alt=""></div>
+        <div class="col-md-2 col-sm-12 image-holder"><img src="/images/githubLogo.png" alt=""></div>
       </div>
     </div>
 

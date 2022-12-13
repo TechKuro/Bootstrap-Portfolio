@@ -4,6 +4,7 @@
     --main-color: #7D9AD1;
     --card-bg: #D3DFE7;
     --secondary: #5F648A;
+    --button-color:#856A45;
 }
 
 
@@ -19,7 +20,9 @@ h2, h5 {
 body {
     background-color: var(--card-bg);
     font-family: 'Charmonman', 'Helvetica', 'Arial', 'sans-serif';
+    color: white;
 }
+
 
 
 
@@ -53,7 +56,6 @@ body {
     display:flex;
     background-color:var(--main-color);
     height: calc(100vh - 130px);
-    color: white;
 
 }
 
@@ -86,7 +88,7 @@ body {
 .section-heading {
     text-align: center;
     margin: 5% 0 5% 0;
-    color: #856A45;
+    color: var(--button-color);
 }
 .container-style {
     max-width: 90%;
@@ -101,16 +103,15 @@ body {
     max-width: 33%;
     margin: auto;
     text-align: center;
-    color: white;
 }
 
 .card-body {
-    background-color: #5F638A;
+    background-color: var(--secondary);
 }
 
 .btn {
-    background-color: #856A45;
-    border-color: #856A45;
+    background-color: var(--button-color);
+    border-color: var(--button-color);
 }
 .row-contain {
 
@@ -127,8 +128,7 @@ body {
 
 .form-style {
     max-width: 40%;
-    background-color: #856945;
-    color: white;
+    background-color: var(--button-color);
     text-align: center;
     padding: 20px 50px;
     margin-top: 10vh;
@@ -139,4 +139,6 @@ body {
     background-color: #856945;
 }
 
-
+.image-holder {
+    background-color: var(--main-color);
+}
