@@ -11,7 +11,7 @@
 /* basic element styles */
 
 h2, h5 {
-    font-size: 3em;
+    font-size: 2em;
     margin-top: 10px;
     margin-bottom: 10px;
 
@@ -139,6 +139,7 @@ body {
     background-color: #856945;
 }
 
+/* about me section */
 .image-holder {
     background-color: var(--main-color);
 }
