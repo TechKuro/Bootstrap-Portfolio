@@ -1,12 +1,20 @@
-h5 {
+/* basic element styles */
+
+h2, h5 {
     font-size: 3em;
     margin-top: 10px;
     margin-bottom: 10px;
+    font-family: 'Charmonman', 'Helvetica', 'Arial', 'sans-serif';
+ 
+
+    
 }
 
 p {
     font-size: 1.5em;
 }
+
+/*nav section styles */
 #main-nav {
 
     background-color:#1B4571;
@@ -34,7 +42,7 @@ p {
     margin-right: 50px;
     margin-left: auto;
 }
-
+ /* Hero Section Styles */
 .jumbotron {
     display:flex;
     background-color: #1B4571;
@@ -70,15 +78,32 @@ p {
     border-radius: 60%;
 }
 
-.test {
-    background-color: pink;
-    border: 1px solid greenyellow;
-    max-width: 90%;
+/* Main content and my work styles */
+.section-heading {
+    text-align: center;
+    margin: 5% 0 5% 0;
+
     
+    
+}
+.container-style {
+    max-width: 90%;
+
+    
+}
+
+
+.card-img-top {
+    max-height: 500px;
 }
 
 .card-container {
     max-width: 33%;
     margin: auto;
     text-align: center;
+}
+
+.row-contain {
+
+    padding: 0px 30px 10vh 30px;
 }
