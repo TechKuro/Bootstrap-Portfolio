@@ -38,15 +38,16 @@
         <div class="info-card col-lg-6"> <!--text box to the left-->
           <div>
             <h1 class="display-4">Hello, world!</h1>
-            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+            <!--added margin class to lead & p for spacing-->
+            <p class="lead my-4">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
             <hr class="my-4">
-            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+            <p class="my-4">It uses utility classes for typography and spacing to space content out within the larger container.</p>
             <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
           </div>
         </div>
         <div class="card col-lg-6" id="jumbo-card" > <!--image card to the right of the jumbotron-->
         <img class="card-img-top" src="/images/mgport.JPG" alt="Card image cap">
-          <div class="card-body">
+          <div class="card-body" style="background-color: transparent;">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             <a href="#" class="btn btn-primary">Go somewhere</a>
@@ -57,7 +58,7 @@
     <!-- My Work Section-->
 
    <section class="container container-style">
-    <h2 class="section-heading display-3"><u>My Work</u></h2>
+    <h2 class="section-heading display-4"><u>My Work</u></h2>
   <div class="row row-contain">
     <!--First Card-->
     <div class="card-container col-lg-6">
@@ -111,7 +112,27 @@
   </div>
   </section>
 
-  <section
+  <section class="mail-form">
+    <form class="container-fluid form-style">
+      <div class="form-group">
+        <label class="my-2" for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+      <div class="form-group">
+        <label class="my-2" for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+      </div>
+      <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="my-2 form-check-label" for="exampleCheck1">Check me out</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+
+
+  </section>
       
 
 
@@ -130,7 +151,7 @@
 
 
     
-</body>
+</body> 
 
 
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
